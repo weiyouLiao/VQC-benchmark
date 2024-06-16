@@ -1,0 +1,1154 @@
+{
+    "vqc_thread14": {
+        "minimumtimes": [
+            19.657771583
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            19.657771583
+        ],
+        "thread": "14",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            19.657771583
+        ]
+    },
+    "vqc_thread43": {
+        "minimumtimes": [
+            7.198307585
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.198307585
+        ],
+        "thread": "43",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.198307585
+        ]
+    },
+    "vqc_thread20": {
+        "minimumtimes": [
+            14.033600936
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            14.033600936
+        ],
+        "thread": "20",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            14.033600936
+        ]
+    },
+    "vqc_thread48": {
+        "minimumtimes": [
+            6.4153822
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.4153822
+        ],
+        "thread": "48",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.4153822
+        ]
+    },
+    "vqc_thread56": {
+        "minimumtimes": [
+            5.659190469
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.659190469
+        ],
+        "thread": "56",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.659190469
+        ]
+    },
+    "vqc_thread28": {
+        "minimumtimes": [
+            9.750818664
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            9.750818664
+        ],
+        "thread": "28",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            9.750818664
+        ]
+    },
+    "vqc_thread62": {
+        "minimumtimes": [
+            5.897893184
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.897893184
+        ],
+        "thread": "62",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.897893184
+        ]
+    },
+    "vqc_thread17": {
+        "minimumtimes": [
+            16.029876792
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            16.029876792
+        ],
+        "thread": "17",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            16.029876792
+        ]
+    },
+    "vqc_thread53": {
+        "minimumtimes": [
+            5.73196435
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.73196435
+        ],
+        "thread": "53",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.73196435
+        ]
+    },
+    "vqc_thread7": {
+        "minimumtimes": [
+            39.067474015
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            39.067474015
+        ],
+        "thread": "7",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            39.067474015
+        ]
+    },
+    "vqc_thread26": {
+        "minimumtimes": [
+            10.494070365
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            10.494070365
+        ],
+        "thread": "26",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            10.494070365
+        ]
+    },
+    "vqc_thread3": {
+        "minimumtimes": [
+            89.960872182
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            89.960872182
+        ],
+        "thread": "3",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            89.960872182
+        ]
+    },
+    "vqc_thread46": {
+        "minimumtimes": [
+            6.272535467
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.272535467
+        ],
+        "thread": "46",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.272535467
+        ]
+    },
+    "vqc_thread36": {
+        "minimumtimes": [
+            7.803298649
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.803298649
+        ],
+        "thread": "36",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.803298649
+        ]
+    },
+    "vqc_thread59": {
+        "minimumtimes": [
+            5.764576613
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.764576613
+        ],
+        "thread": "59",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.764576613
+        ]
+    },
+    "vqc_thread24": {
+        "minimumtimes": [
+            11.359618741
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            11.359618741
+        ],
+        "thread": "24",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            11.359618741
+        ]
+    },
+    "vqc_thread18": {
+        "minimumtimes": [
+            15.251821122
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            15.251821122
+        ],
+        "thread": "18",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            15.251821122
+        ]
+    },
+    "vqc_thread44": {
+        "minimumtimes": [
+            7.110638747
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.110638747
+        ],
+        "thread": "44",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.110638747
+        ]
+    },
+    "vqc_thread1": {
+        "minimumtimes": [
+            270.860237988
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            270.860237988
+        ],
+        "thread": "1",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            270.860237988
+        ]
+    },
+    "vqc_thread57": {
+        "minimumtimes": [
+            5.741194981
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.741194981
+        ],
+        "thread": "57",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.741194981
+        ]
+    },
+    "vqc_thread22": {
+        "minimumtimes": [
+            12.419801721
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            12.419801721
+        ],
+        "thread": "22",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            12.419801721
+        ]
+    },
+    "vqc_thread21": {
+        "minimumtimes": [
+            13.289055522
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            13.289055522
+        ],
+        "thread": "21",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            13.289055522
+        ]
+    },
+    "vqc_thread10": {
+        "minimumtimes": [
+            27.658995223
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            27.658995223
+        ],
+        "thread": "10",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            27.658995223
+        ]
+    },
+    "vqc_thread2": {
+        "minimumtimes": [
+            136.326565989
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            136.326565989
+        ],
+        "thread": "2",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            136.326565989
+        ]
+    },
+    "vqc_thread42": {
+        "minimumtimes": [
+            7.315025928
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.315025928
+        ],
+        "thread": "42",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.315025928
+        ]
+    },
+    "vqc_thread32": {
+        "minimumtimes": [
+            11.042025519
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            11.042025519
+        ],
+        "thread": "32",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            11.042025519
+        ]
+    },
+    "vqc_thread34": {
+        "minimumtimes": [
+            8.354190214
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            8.354190214
+        ],
+        "thread": "34",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            8.354190214
+        ]
+    },
+    "vqc_thread9": {
+        "minimumtimes": [
+            32.247468604
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            32.247468604
+        ],
+        "thread": "9",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            32.247468604
+        ]
+    },
+    "vqc_thread45": {
+        "minimumtimes": [
+            6.850445521
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.850445521
+        ],
+        "thread": "45",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.850445521
+        ]
+    },
+    "vqc_thread64": {
+        "minimumtimes": [
+            5.839951606
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.839951606
+        ],
+        "thread": "64",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.839951606
+        ]
+    },
+    "vqc_thread41": {
+        "minimumtimes": [
+            7.232828526
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.232828526
+        ],
+        "thread": "41",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.232828526
+        ]
+    },
+    "vqc_thread11": {
+        "minimumtimes": [
+            24.94646259
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            24.94646259
+        ],
+        "thread": "11",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            24.94646259
+        ]
+    },
+    "vqc_thread61": {
+        "minimumtimes": [
+            6.115520136
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.115520136
+        ],
+        "thread": "61",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.115520136
+        ]
+    },
+    "vqc_thread8": {
+        "minimumtimes": [
+            33.435706597
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            33.435706597
+        ],
+        "thread": "8",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            33.435706597
+        ]
+    },
+    "vqc_thread4": {
+        "minimumtimes": [
+            68.231257545
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            68.231257545
+        ],
+        "thread": "4",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            68.231257545
+        ]
+    },
+    "vqc_thread35": {
+        "minimumtimes": [
+            8.083196543
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            8.083196543
+        ],
+        "thread": "35",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            8.083196543
+        ]
+    },
+    "vqc_thread38": {
+        "minimumtimes": [
+            7.632249204
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.632249204
+        ],
+        "thread": "38",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.632249204
+        ]
+    },
+    "vqc_thread27": {
+        "minimumtimes": [
+            10.12790298
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            10.12790298
+        ],
+        "thread": "27",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            10.12790298
+        ]
+    },
+    "vqc_thread52": {
+        "minimumtimes": [
+            5.758781448
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.758781448
+        ],
+        "thread": "52",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.758781448
+        ]
+    },
+    "vqc_thread47": {
+        "minimumtimes": [
+            6.978180182
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.978180182
+        ],
+        "thread": "47",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.978180182
+        ]
+    },
+    "vqc_thread23": {
+        "minimumtimes": [
+            12.082417421
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            12.082417421
+        ],
+        "thread": "23",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            12.082417421
+        ]
+    },
+    "vqc_thread58": {
+        "minimumtimes": [
+            5.746944338
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.746944338
+        ],
+        "thread": "58",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.746944338
+        ]
+    },
+    "vqc_thread15": {
+        "minimumtimes": [
+            18.001535167
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            18.001535167
+        ],
+        "thread": "15",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            18.001535167
+        ]
+    },
+    "vqc_thread33": {
+        "minimumtimes": [
+            8.77461296
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            8.77461296
+        ],
+        "thread": "33",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            8.77461296
+        ]
+    },
+    "vqc_thread25": {
+        "minimumtimes": [
+            10.903718392
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            10.903718392
+        ],
+        "thread": "25",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            10.903718392
+        ]
+    },
+    "vqc_thread19": {
+        "minimumtimes": [
+            14.448713115
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            14.448713115
+        ],
+        "thread": "19",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            14.448713115
+        ]
+    },
+    "vqc_thread54": {
+        "minimumtimes": [
+            5.712698612
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.712698612
+        ],
+        "thread": "54",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.712698612
+        ]
+    },
+    "vqc_thread37": {
+        "minimumtimes": [
+            7.6141147
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.6141147
+        ],
+        "thread": "37",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.6141147
+        ]
+    },
+    "vqc_thread5": {
+        "minimumtimes": [
+            55.311767808
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            55.311767808
+        ],
+        "thread": "5",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            55.311767808
+        ]
+    },
+    "vqc_thread50": {
+        "minimumtimes": [
+            6.292333062
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.292333062
+        ],
+        "thread": "50",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.292333062
+        ]
+    },
+    "vqc_thread16": {
+        "minimumtimes": [
+            17.100096708
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            17.100096708
+        ],
+        "thread": "16",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            17.100096708
+        ]
+    },
+    "vqc_thread60": {
+        "minimumtimes": [
+            5.767585997
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.767585997
+        ],
+        "thread": "60",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.767585997
+        ]
+    },
+    "vqc_thread31": {
+        "minimumtimes": [
+            8.950755852
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            8.950755852
+        ],
+        "thread": "31",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            8.950755852
+        ]
+    },
+    "vqc_thread51": {
+        "minimumtimes": [
+            6.346980878
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.346980878
+        ],
+        "thread": "51",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.346980878
+        ]
+    },
+    "vqc_thread29": {
+        "minimumtimes": [
+            9.640878155
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            9.640878155
+        ],
+        "thread": "29",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            9.640878155
+        ]
+    },
+    "vqc_thread63": {
+        "minimumtimes": [
+            5.63979526
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.63979526
+        ],
+        "thread": "63",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.63979526
+        ]
+    },
+    "vqc_thread55": {
+        "minimumtimes": [
+            5.759389982
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            5.759389982
+        ],
+        "thread": "55",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            5.759389982
+        ]
+    },
+    "vqc_thread12": {
+        "minimumtimes": [
+            22.744789417
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            22.744789417
+        ],
+        "thread": "12",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            22.744789417
+        ]
+    },
+    "vqc_thread39": {
+        "minimumtimes": [
+            7.771553354
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.771553354
+        ],
+        "thread": "39",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.771553354
+        ]
+    },
+    "vqc_thread6": {
+        "minimumtimes": [
+            44.855958436
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            44.855958436
+        ],
+        "thread": "6",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            44.855958436
+        ]
+    },
+    "vqc_thread49": {
+        "minimumtimes": [
+            6.335145943
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6.335145943
+        ],
+        "thread": "49",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            6.335145943
+        ]
+    },
+    "vqc_thread13": {
+        "minimumtimes": [
+            20.77667246
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            20.77667246
+        ],
+        "thread": "13",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            20.77667246
+        ]
+    },
+    "vqc_thread40": {
+        "minimumtimes": [
+            7.189552798
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            7.189552798
+        ],
+        "thread": "40",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            7.189552798
+        ]
+    },
+    "vqc_thread30": {
+        "minimumtimes": [
+            9.190129004
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            9.190129004
+        ],
+        "thread": "30",
+        "nqubits": [
+            26
+        ],
+        "meantimes": [
+            9.190129004
+        ]
+    }
+}

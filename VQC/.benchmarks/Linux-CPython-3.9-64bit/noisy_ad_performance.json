@@ -1,0 +1,110 @@
+{
+    "vqc_thread4": {
+        "minimumtimes": [
+            3931.803596206
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            3931.803596206
+        ],
+        "thread": "4",
+        "nqubits": [
+            14
+        ],
+        "meantimes": [
+            3931.803596206
+        ]
+    },
+    "vqc_thread16": {
+        "minimumtimes": [
+            3192.273864875
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            3192.273864875
+        ],
+        "thread": "16",
+        "nqubits": [
+            14
+        ],
+        "meantimes": [
+            3192.273864875
+        ]
+    },
+    "vqc_thread32": {
+        "minimumtimes": [
+            3196.727695445
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            3196.727695445
+        ],
+        "thread": "32",
+        "nqubits": [
+            14
+        ],
+        "meantimes": [
+            3196.727695445
+        ]
+    },
+    "vqc_thread64": {
+        "minimumtimes": [
+            2835.176783295
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            2835.176783295
+        ],
+        "thread": "64",
+        "nqubits": [
+            14
+        ],
+        "meantimes": [
+            2835.176783295
+        ]
+    },
+    "vqc_thread1": {
+        "minimumtimes": [
+            6289.158802806
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            6289.158802806
+        ],
+        "thread": "1",
+        "nqubits": [
+            14
+        ],
+        "meantimes": [
+            6289.158802806
+        ]
+    },
+    "vqc_thread8": {
+        "minimumtimes": [
+            3156.174383728
+        ],
+        "stdtimes": [
+            null
+        ],
+        "maximumtimes": [
+            3156.174383728
+        ],
+        "thread": "8",
+        "nqubits": [
+            14
+        ],
+        "meantimes": [
+            3156.174383728
+        ]
+    }
+}

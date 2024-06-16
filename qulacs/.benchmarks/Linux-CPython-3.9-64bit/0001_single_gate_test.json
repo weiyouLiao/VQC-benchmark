@@ -1,0 +1,2537 @@
+{
+    "machine_info": {
+        "node": "inspur-ThinkSystem-SR868-7X69CTO1WW",
+        "processor": "x86_64",
+        "machine": "x86_64",
+        "python_compiler": "GCC 11.2.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.9.18",
+        "python_version": "3.9.18",
+        "python_build": [
+            "main",
+            "Sep 11 2023 13:41:44"
+        ],
+        "release": "6.2.0-39-generic",
+        "system": "Linux",
+        "cpu": {
+            "python_version": "3.9.18.final.0 (64 bit)",
+            "cpuinfo_version": [
+                9,
+                0,
+                0
+            ],
+            "cpuinfo_version_string": "9.0.0",
+            "arch": "X86_64",
+            "bits": 64,
+            "count": 144,
+            "arch_string_raw": "x86_64",
+            "vendor_id_raw": "GenuineIntel",
+            "brand_raw": "Intel(R) Xeon(R) Gold 6254 CPU @ 3.10GHz",
+            "hz_advertised_friendly": "3.1000 GHz",
+            "hz_actual_friendly": "1.2001 GHz",
+            "hz_advertised": [
+                3100000000,
+                0
+            ],
+            "hz_actual": [
+                1200070000,
+                0
+            ],
+            "stepping": 7,
+            "model": 85,
+            "family": 6,
+            "flags": [
+                "3dnowprefetch",
+                "abm",
+                "acpi",
+                "adx",
+                "aes",
+                "aperfmperf",
+                "apic",
+                "arat",
+                "arch_capabilities",
+                "arch_perfmon",
+                "art",
+                "avx",
+                "avx2",
+                "avx512_vnni",
+                "avx512bw",
+                "avx512cd",
+                "avx512dq",
+                "avx512f",
+                "avx512vl",
+                "avx512vnni",
+                "bmi1",
+                "bmi2",
+                "bts",
+                "cat_l3",
+                "cdp_l3",
+                "clflush",
+                "clflushopt",
+                "clwb",
+                "cmov",
+                "constant_tsc",
+                "cpuid",
+                "cpuid_fault",
+                "cqm",
+                "cqm_llc",
+                "cqm_mbm_local",
+                "cqm_mbm_total",
+                "cqm_occup_llc",
+                "cx16",
+                "cx8",
+                "dca",
+                "de",
+                "ds_cpl",
+                "dtes64",
+                "dtherm",
+                "dts",
+                "epb",
+                "ept",
+                "ept_ad",
+                "erms",
+                "est",
+                "f16c",
+                "flexpriority",
+                "flush_l1d",
+                "fma",
+                "fpu",
+                "fsgsbase",
+                "fxsr",
+                "ht",
+                "hwp_epp",
+                "ibpb",
+                "ibrs",
+                "ibrs_enhanced",
+                "ida",
+                "intel_ppin",
+                "intel_pt",
+                "invpcid",
+                "invpcid_single",
+                "lahf_lm",
+                "lm",
+                "mba",
+                "mca",
+                "mce",
+                "md_clear",
+                "mmx",
+                "monitor",
+                "movbe",
+                "mpx",
+                "msr",
+                "mtrr",
+                "nonstop_tsc",
+                "nopl",
+                "nx",
+                "ospke",
+                "osxsave",
+                "pae",
+                "pat",
+                "pbe",
+                "pcid",
+                "pclmulqdq",
+                "pdcm",
+                "pdpe1gb",
+                "pebs",
+                "pge",
+                "pku",
+                "pln",
+                "pni",
+                "popcnt",
+                "pqe",
+                "pqm",
+                "pse",
+                "pse36",
+                "pts",
+                "rdrand",
+                "rdrnd",
+                "rdseed",
+                "rdt_a",
+                "rdtscp",
+                "rep_good",
+                "sdbg",
+                "sep",
+                "smap",
+                "smep",
+                "smx",
+                "ss",
+                "ssbd",
+                "sse",
+                "sse2",
+                "sse4_1",
+                "sse4_2",
+                "ssse3",
+                "stibp",
+                "syscall",
+                "tm",
+                "tm2",
+                "tpr_shadow",
+                "tsc",
+                "tsc_adjust",
+                "tsc_deadline_timer",
+                "tscdeadline",
+                "vme",
+                "vmx",
+                "vnmi",
+                "vpid",
+                "x2apic",
+                "xgetbv1",
+                "xsave",
+                "xsavec",
+                "xsaveopt",
+                "xsaves",
+                "xtopology",
+                "xtpr"
+            ],
+            "l3_cache_size": 25952256,
+            "l2_cache_size": 75497472,
+            "l1_data_cache_size": "2.3 MiB",
+            "l1_instruction_cache_size": "2.3 MiB",
+            "l2_cache_line_size": 256,
+            "l2_cache_associativity": 6
+        }
+    },
+    "commit_info": {
+        "id": "unversioned",
+        "time": null,
+        "author_time": null,
+        "dirty": false,
+        "project": "qulacs",
+        "branch": "(unknown)"
+    },
+    "benchmarks": [
+        {
+            "group": "H",
+            "name": "test_single_H[10]",
+            "fullname": "single_gate_test.py::test_single_H[10]",
+            "params": {
+                "nqubits": 10
+            },
+            "param": "10",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.701992005109787e-06,
+                "max": 2.3527070879936218e-05,
+                "mean": 1.780037661637662e-06,
+                "stddev": 4.1785166886228586e-07,
+                "rounds": 82995,
+                "median": 1.759035512804985e-06,
+                "iqr": 3.096647560596466e-08,
+                "q1": 1.7480924725532532e-06,
+                "q3": 1.7790589481592178e-06,
+                "iqr_outliers": 2335,
+                "stddev_outliers": 138,
+                "outliers": "138;2335",
+                "ld15iqr": 1.701992005109787e-06,
+                "hd15iqr": 1.8258579075336456e-06,
+                "ops": 561785.866418121,
+                "total": 0.14773422572761774,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[11]",
+            "fullname": "single_gate_test.py::test_single_H[11]",
+            "params": {
+                "nqubits": 11
+            },
+            "param": "11",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 2.7709174901247025e-06,
+                "max": 0.001237217104062438,
+                "mean": 2.8722090279384494e-06,
+                "stddev": 3.033231844945786e-06,
+                "rounds": 169608,
+                "median": 2.8391368687152863e-06,
+                "iqr": 3.213062882423401e-08,
+                "q1": 2.8279609978199005e-06,
+                "q3": 2.8600916266441345e-06,
+                "iqr_outliers": 9472,
+                "stddev_outliers": 282,
+                "outliers": "282;9472",
+                "ld15iqr": 2.7811620384454727e-06,
+                "hd15iqr": 2.908986061811447e-06,
+                "ops": 348164.0752023392,
+                "total": 0.48714962881058455,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[12]",
+            "fullname": "single_gate_test.py::test_single_H[12]",
+            "params": {
+                "nqubits": 12
+            },
+            "param": "12",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 4.844041541218758e-06,
+                "max": 8.280202746391296e-05,
+                "mean": 4.946822639715547e-06,
+                "stddev": 5.317892630800685e-07,
+                "rounds": 140016,
+                "median": 4.916917532682419e-06,
+                "iqr": 4.1211023926734924e-08,
+                "q1": 4.899920895695686e-06,
+                "q3": 4.941131919622421e-06,
+                "iqr_outliers": 10644,
+                "stddev_outliers": 332,
+                "outliers": "332;10644",
+                "ld15iqr": 4.844041541218758e-06,
+                "hd15iqr": 5.003064870834351e-06,
+                "ops": 202149.9602535785,
+                "total": 0.692634318722412,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[13]",
+            "fullname": "single_gate_test.py::test_single_H[13]",
+            "params": {
+                "nqubits": 13
+            },
+            "param": "13",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 8.978182449936867e-06,
+                "max": 0.0001098348293453455,
+                "mean": 9.095214413638405e-06,
+                "stddev": 7.442885657479446e-07,
+                "rounds": 90811,
+                "median": 9.037088602781296e-06,
+                "iqr": 3.003515303134918e-08,
+                "q1": 9.024981409311295e-06,
+                "q3": 9.055016562342644e-06,
+                "iqr_outliers": 9071,
+                "stddev_outliers": 408,
+                "outliers": "408;9071",
+                "ld15iqr": 8.980045095086098e-06,
+                "hd15iqr": 9.100185707211494e-06,
+                "ops": 109947.9302544518,
+                "total": 0.8259455161169171,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[14]",
+            "fullname": "single_gate_test.py::test_single_H[14]",
+            "params": {
+                "nqubits": 14
+            },
+            "param": "14",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.723412424325943e-05,
+                "max": 0.0005370101425796747,
+                "mean": 1.7413411911803028e-05,
+                "stddev": 2.5051885957054124e-06,
+                "rounds": 52029,
+                "median": 1.7293961718678474e-05,
+                "iqr": 6.007030606269836e-08,
+                "q1": 1.7276033759117126e-05,
+                "q3": 1.7336104065179825e-05,
+                "iqr_outliers": 4333,
+                "stddev_outliers": 408,
+                "outliers": "408;4333",
+                "ld15iqr": 1.723412424325943e-05,
+                "hd15iqr": 1.7426908016204834e-05,
+                "ops": 57426.999663528746,
+                "total": 0.9060024083591998,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[15]",
+            "fullname": "single_gate_test.py::test_single_H[15]",
+            "params": {
+                "nqubits": 15
+            },
+            "param": "15",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.384309820830822e-05,
+                "max": 0.0001239439006894827,
+                "mean": 3.439703771682124e-05,
+                "stddev": 2.026679232773397e-06,
+                "rounds": 26073,
+                "median": 3.4051015973091125e-05,
+                "iqr": 1.3317912817001343e-07,
+                "q1": 3.399699926376343e-05,
+                "q3": 3.413017839193344e-05,
+                "iqr_outliers": 3585,
+                "stddev_outliers": 581,
+                "outliers": "581;3585",
+                "ld15iqr": 3.384309820830822e-05,
+                "hd15iqr": 3.433087840676308e-05,
+                "ops": 29072.27093892938,
+                "total": 0.8968339643906802,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[16]",
+            "fullname": "single_gate_test.py::test_single_H[16]",
+            "params": {
+                "nqubits": 16
+            },
+            "param": "16",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 6.966083310544491e-05,
+                "max": 0.000171236926689744,
+                "mean": 7.081261638360094e-05,
+                "stddev": 2.5731196259387415e-06,
+                "rounds": 13223,
+                "median": 7.037399336695671e-05,
+                "iqr": 3.5372795537114143e-07,
+                "q1": 7.017835741862655e-05,
+                "q3": 7.053208537399769e-05,
+                "iqr_outliers": 1380,
+                "stddev_outliers": 449,
+                "outliers": "449;1380",
+                "ld15iqr": 6.966083310544491e-05,
+                "hd15iqr": 7.108715362846851e-05,
+                "ops": 14121.777319776931,
+                "total": 0.9363552264403552,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[17]",
+            "fullname": "single_gate_test.py::test_single_H[17]",
+            "params": {
+                "nqubits": 17
+            },
+            "param": "17",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00013553001917898655,
+                "max": 0.00021141278557479382,
+                "mean": 0.0001386449517704809,
+                "stddev": 4.794035278506587e-06,
+                "rounds": 6754,
+                "median": 0.00013627205044031143,
+                "iqr": 5.462905392050743e-06,
+                "q1": 0.0001359970774501562,
+                "q3": 0.00014145998284220695,
+                "iqr_outliers": 215,
+                "stddev_outliers": 622,
+                "outliers": "622;215",
+                "ld15iqr": 0.00013553001917898655,
+                "hd15iqr": 0.00014973781071603298,
+                "ops": 7212.667949536634,
+                "total": 0.936408004257828,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[18]",
+            "fullname": "single_gate_test.py::test_single_H[18]",
+            "params": {
+                "nqubits": 18
+            },
+            "param": "18",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00026707700453698635,
+                "max": 0.00031586596742272377,
+                "mean": 0.0002699319129408225,
+                "stddev": 6.004897769230788e-06,
+                "rounds": 3419,
+                "median": 0.0002678218297660351,
+                "iqr": 4.912144504487514e-07,
+                "q1": 0.0002675659488886595,
+                "q3": 0.00026805716333910823,
+                "iqr_outliers": 588,
+                "stddev_outliers": 277,
+                "outliers": "277;588",
+                "ld15iqr": 0.00026707700453698635,
+                "hd15iqr": 0.0002718288451433182,
+                "ops": 3704.6379181524608,
+                "total": 0.9228972103446722,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[19]",
+            "fullname": "single_gate_test.py::test_single_H[19]",
+            "params": {
+                "nqubits": 19
+            },
+            "param": "19",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0005316878668963909,
+                "max": 0.0006197970360517502,
+                "mean": 0.0005384710702436188,
+                "stddev": 1.0463615912280305e-05,
+                "rounds": 1560,
+                "median": 0.0005331500433385372,
+                "iqr": 7.5339339673519135e-06,
+                "q1": 0.0005326105747371912,
+                "q3": 0.0005401445087045431,
+                "iqr_outliers": 200,
+                "stddev_outliers": 242,
+                "outliers": "242;200",
+                "ld15iqr": 0.0005316878668963909,
+                "hd15iqr": 0.0005515539087355137,
+                "ops": 1857.1099828029257,
+                "total": 0.8400148695800453,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[20]",
+            "fullname": "single_gate_test.py::test_single_H[20]",
+            "params": {
+                "nqubits": 20
+            },
+            "param": "20",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0011573000811040401,
+                "max": 0.001321085961535573,
+                "mean": 0.0011791988358438163,
+                "stddev": 1.854626407269582e-05,
+                "rounds": 604,
+                "median": 0.0011721894843503833,
+                "iqr": 1.800479367375374e-05,
+                "q1": 0.0011681830510497093,
+                "q3": 0.001186187844723463,
+                "iqr_outliers": 40,
+                "stddev_outliers": 102,
+                "outliers": "102;40",
+                "ld15iqr": 0.0011573000811040401,
+                "hd15iqr": 0.0012133170384913683,
+                "ops": 848.0334016649665,
+                "total": 0.712236096849665,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[21]",
+            "fullname": "single_gate_test.py::test_single_H[21]",
+            "params": {
+                "nqubits": 21
+            },
+            "param": "21",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00372156105004251,
+                "max": 0.0038989600725471973,
+                "mean": 0.003793839353374114,
+                "stddev": 3.648715978351537e-05,
+                "rounds": 255,
+                "median": 0.003790413960814476,
+                "iqr": 4.837563028559089e-05,
+                "q1": 0.0037672777543775737,
+                "q3": 0.0038156533846631646,
+                "iqr_outliers": 3,
+                "stddev_outliers": 94,
+                "outliers": "94;3",
+                "ld15iqr": 0.00372156105004251,
+                "hd15iqr": 0.003890625201165676,
+                "ops": 263.5852251125587,
+                "total": 0.9674290351103991,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[22]",
+            "fullname": "single_gate_test.py::test_single_H[22]",
+            "params": {
+                "nqubits": 22
+            },
+            "param": "22",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.008859429974108934,
+                "max": 0.01039089891128242,
+                "mean": 0.009017648108835732,
+                "stddev": 0.00014301646753270977,
+                "rounds": 112,
+                "median": 0.009003470884636045,
+                "iqr": 7.28406012058258e-05,
+                "q1": 0.008967555477283895,
+                "q3": 0.00904039607848972,
+                "iqr_outliers": 2,
+                "stddev_outliers": 2,
+                "outliers": "2;2",
+                "ld15iqr": 0.008859429974108934,
+                "hd15iqr": 0.00915321009233594,
+                "ops": 110.89365962508266,
+                "total": 1.009976588189602,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[23]",
+            "fullname": "single_gate_test.py::test_single_H[23]",
+            "params": {
+                "nqubits": 23
+            },
+            "param": "23",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.01907259994186461,
+                "max": 0.019534975988790393,
+                "mean": 0.01931570012283583,
+                "stddev": 0.00012460812576896185,
+                "rounds": 52,
+                "median": 0.019320104620419443,
+                "iqr": 0.00023281818721443415,
+                "q1": 0.019194390391930938,
+                "q3": 0.019427208579145372,
+                "iqr_outliers": 0,
+                "stddev_outliers": 22,
+                "outliers": "22;0",
+                "ld15iqr": 0.01907259994186461,
+                "hd15iqr": 0.019534975988790393,
+                "ops": 51.77135664980417,
+                "total": 1.0044164063874632,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[24]",
+            "fullname": "single_gate_test.py::test_single_H[24]",
+            "params": {
+                "nqubits": 24
+            },
+            "param": "24",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.03981173597276211,
+                "max": 0.04042868688702583,
+                "mean": 0.0400478660236471,
+                "stddev": 0.0001223459421347319,
+                "rounds": 26,
+                "median": 0.04004774894565344,
+                "iqr": 0.00010767579078674316,
+                "q1": 0.03997634304687381,
+                "q3": 0.04008401883766055,
+                "iqr_outliers": 3,
+                "stddev_outliers": 6,
+                "outliers": "6;3",
+                "ld15iqr": 0.03989393194206059,
+                "hd15iqr": 0.04030107706785202,
+                "ops": 24.970119491748427,
+                "total": 1.0412445166148245,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[25]",
+            "fullname": "single_gate_test.py::test_single_H[25]",
+            "params": {
+                "nqubits": 25
+            },
+            "param": "25",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.08087931503541768,
+                "max": 0.08149846899323165,
+                "mean": 0.08116785863127846,
+                "stddev": 0.00020476863620743399,
+                "rounds": 13,
+                "median": 0.08108580205589533,
+                "iqr": 0.0003159547341056168,
+                "q1": 0.08104319783160463,
+                "q3": 0.08135915256571025,
+                "iqr_outliers": 0,
+                "stddev_outliers": 4,
+                "outliers": "4;0",
+                "ld15iqr": 0.08087931503541768,
+                "hd15iqr": 0.08149846899323165,
+                "ops": 12.320147615852523,
+                "total": 1.05518216220662,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[26]",
+            "fullname": "single_gate_test.py::test_single_H[26]",
+            "params": {
+                "nqubits": 26
+            },
+            "param": "26",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.16287082782946527,
+                "max": 0.16396422288380563,
+                "mean": 0.16354282193684153,
+                "stddev": 0.0003700603889402283,
+                "rounds": 7,
+                "median": 0.16358104185201228,
+                "iqr": 0.0004575761849991977,
+                "q1": 0.16337430756539106,
+                "q3": 0.16383188375039026,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.16287082782946527,
+                "hd15iqr": 0.16396422288380563,
+                "ops": 6.114606487505696,
+                "total": 1.1447997535578907,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[27]",
+            "fullname": "single_gate_test.py::test_single_H[27]",
+            "params": {
+                "nqubits": 27
+            },
+            "param": "27",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.32703414908610284,
+                "max": 0.3281600989867002,
+                "mean": 0.32769238399341705,
+                "stddev": 0.00041823262874747687,
+                "rounds": 5,
+                "median": 0.3277283310890198,
+                "iqr": 0.0004782250616699457,
+                "q1": 0.3274874212802388,
+                "q3": 0.3279656463419087,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.32703414908610284,
+                "hd15iqr": 0.3281600989867002,
+                "ops": 3.0516424819323507,
+                "total": 1.6384619199670851,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[28]",
+            "fullname": "single_gate_test.py::test_single_H[28]",
+            "params": {
+                "nqubits": 28
+            },
+            "param": "28",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.6519442659337074,
+                "max": 0.668395385146141,
+                "mean": 0.6561640668194741,
+                "stddev": 0.0068872171604451625,
+                "rounds": 5,
+                "median": 0.6531126219779253,
+                "iqr": 0.0050069469143636525,
+                "q1": 0.652802005817648,
+                "q3": 0.6578089527320117,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 0.6519442659337074,
+                "hd15iqr": 0.668395385146141,
+                "ops": 1.5240090863968678,
+                "total": 3.2808203340973705,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[29]",
+            "fullname": "single_gate_test.py::test_single_H[29]",
+            "params": {
+                "nqubits": 29
+            },
+            "param": "29",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.309346471913159,
+                "max": 1.3148703670594841,
+                "mean": 1.3122597851790487,
+                "stddev": 0.002187294996059648,
+                "rounds": 5,
+                "median": 1.3126052760053426,
+                "iqr": 0.00342511321650818,
+                "q1": 1.3104933523572981,
+                "q3": 1.3139184655738063,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 1.309346471913159,
+                "hd15iqr": 1.3148703670594841,
+                "ops": 0.7620442318618771,
+                "total": 6.561298925895244,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "H",
+            "name": "test_single_H[30]",
+            "fullname": "single_gate_test.py::test_single_H[30]",
+            "params": {
+                "nqubits": 30
+            },
+            "param": "30",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 2.622218885924667,
+                "max": 2.652928814990446,
+                "mean": 2.6374113849829883,
+                "stddev": 0.011519222660093106,
+                "rounds": 5,
+                "median": 2.6380998170934618,
+                "iqr": 0.01576774794375524,
+                "q1": 2.629188116232399,
+                "q3": 2.644955864176154,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 2.622218885924667,
+                "hd15iqr": 2.652928814990446,
+                "ops": 0.37915965847946403,
+                "total": 13.187056924914941,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[10]",
+            "fullname": "single_gate_test.py::test_single_RX[10]",
+            "params": {
+                "nqubits": 10
+            },
+            "param": "10",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.444962203502655e-06,
+                "max": 6.175483576953411e-05,
+                "mean": 3.521058615147144e-06,
+                "stddev": 5.375809019415354e-07,
+                "rounds": 57767,
+                "median": 3.487803041934967e-06,
+                "iqr": 4.0978193283081055e-08,
+                "q1": 3.474997356534004e-06,
+                "q3": 3.5159755498170853e-06,
+                "iqr_outliers": 3624,
+                "stddev_outliers": 128,
+                "outliers": "128;3624",
+                "ld15iqr": 3.444962203502655e-06,
+                "hd15iqr": 3.5779085010290146e-06,
+                "ops": 284005.4964430663,
+                "total": 0.20340099302120507,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[11]",
+            "fullname": "single_gate_test.py::test_single_RX[11]",
+            "params": {
+                "nqubits": 11
+            },
+            "param": "11",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 6.218208000063896e-06,
+                "max": 0.00018616998568177223,
+                "mean": 6.3733012802620805e-06,
+                "stddev": 8.952967672492115e-07,
+                "rounds": 116550,
+                "median": 6.315996870398521e-06,
+                "iqr": 3.91155481338501e-08,
+                "q1": 6.299931555986404e-06,
+                "q3": 6.3390471041202545e-06,
+                "iqr_outliers": 14599,
+                "stddev_outliers": 453,
+                "outliers": "453;14599",
+                "ld15iqr": 6.241956725716591e-06,
+                "hd15iqr": 6.3979532569646835e-06,
+                "ops": 156904.55480222934,
+                "total": 0.7428082642145455,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[12]",
+            "fullname": "single_gate_test.py::test_single_RX[12]",
+            "params": {
+                "nqubits": 12
+            },
+            "param": "12",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.171301119029522e-05,
+                "max": 0.00012179906480014324,
+                "mean": 1.1863556259959332e-05,
+                "stddev": 1.012596823722941e-06,
+                "rounds": 71282,
+                "median": 1.1783093214035034e-05,
+                "iqr": 3.306195139884949e-08,
+                "q1": 1.1767027899622917e-05,
+                "q3": 1.1800089851021767e-05,
+                "iqr_outliers": 7114,
+                "stddev_outliers": 434,
+                "outliers": "434;7114",
+                "ld15iqr": 1.171790063381195e-05,
+                "hd15iqr": 1.1849915608763695e-05,
+                "ops": 84291.75688027867,
+                "total": 0.8456580173224211,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[13]",
+            "fullname": "single_gate_test.py::test_single_RX[13]",
+            "params": {
+                "nqubits": 13
+            },
+            "param": "13",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 2.2622058168053627e-05,
+                "max": 0.00011538388207554817,
+                "mean": 2.294484620599231e-05,
+                "stddev": 1.375742797215632e-06,
+                "rounds": 40369,
+                "median": 2.2788066416978836e-05,
+                "iqr": 5.2852556109428406e-08,
+                "q1": 2.2761058062314987e-05,
+                "q3": 2.2813910618424416e-05,
+                "iqr_outliers": 6260,
+                "stddev_outliers": 480,
+                "outliers": "480;6260",
+                "ld15iqr": 2.268189564347267e-05,
+                "hd15iqr": 2.2894935682415962e-05,
+                "ops": 43582.77196640518,
+                "total": 0.9262604964897037,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[14]",
+            "fullname": "single_gate_test.py::test_single_RX[14]",
+            "params": {
+                "nqubits": 14
+            },
+            "param": "14",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 4.45700716227293e-05,
+                "max": 0.0001317090354859829,
+                "mean": 4.492665993413886e-05,
+                "stddev": 1.6959814970329407e-06,
+                "rounds": 21417,
+                "median": 4.465109668672085e-05,
+                "iqr": 3.91155481338501e-08,
+                "q1": 4.463503137230873e-05,
+                "q3": 4.467414692044258e-05,
+                "iqr_outliers": 2060,
+                "stddev_outliers": 461,
+                "outliers": "461;2060",
+                "ld15iqr": 4.457798786461353e-05,
+                "hd15iqr": 4.473305307328701e-05,
+                "ops": 22258.498661284193,
+                "total": 0.9621942758094519,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[15]",
+            "fullname": "single_gate_test.py::test_single_RX[15]",
+            "params": {
+                "nqubits": 15
+            },
+            "param": "15",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 8.82069580256939e-05,
+                "max": 0.00023089698515832424,
+                "mean": 8.885866620030055e-05,
+                "stddev": 2.7131622908852565e-06,
+                "rounds": 10996,
+                "median": 8.831499144434929e-05,
+                "iqr": 4.819594323635101e-08,
+                "q1": 8.829496800899506e-05,
+                "q3": 8.834316395223141e-05,
+                "iqr_outliers": 1219,
+                "stddev_outliers": 386,
+                "outliers": "386;1219",
+                "ld15iqr": 8.822395466268063e-05,
+                "hd15iqr": 8.841697126626968e-05,
+                "ops": 11253.82636000694,
+                "total": 0.9770898935385048,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[16]",
+            "fullname": "single_gate_test.py::test_single_RX[16]",
+            "params": {
+                "nqubits": 16
+            },
+            "param": "16",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00017714709974825382,
+                "max": 0.000289171002805233,
+                "mean": 0.00017862621941700297,
+                "stddev": 4.208037719884768e-06,
+                "rounds": 5545,
+                "median": 0.00017745583318173885,
+                "iqr": 1.442967914044857e-07,
+                "q1": 0.0001773920375853777,
+                "q3": 0.00017753633437678218,
+                "iqr_outliers": 804,
+                "stddev_outliers": 280,
+                "outliers": "280;804",
+                "ld15iqr": 0.00017718016169965267,
+                "hd15iqr": 0.00017775618471205235,
+                "ops": 5598.282286126762,
+                "total": 0.9904823866672814,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[17]",
+            "fullname": "single_gate_test.py::test_single_RX[17]",
+            "params": {
+                "nqubits": 17
+            },
+            "param": "17",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00035219406709074974,
+                "max": 0.0003933750558644533,
+                "mean": 0.000355218676416561,
+                "stddev": 6.2405262490608005e-06,
+                "rounds": 2792,
+                "median": 0.00035253120586276054,
+                "iqr": 2.584420144557953e-07,
+                "q1": 0.0003524415660649538,
+                "q3": 0.0003527000080794096,
+                "iqr_outliers": 604,
+                "stddev_outliers": 323,
+                "outliers": "323;604",
+                "ld15iqr": 0.00035219406709074974,
+                "hd15iqr": 0.00035323179326951504,
+                "ops": 2815.1672938145607,
+                "total": 0.9917705445550382,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[18]",
+            "fullname": "single_gate_test.py::test_single_RX[18]",
+            "params": {
+                "nqubits": 18
+            },
+            "param": "18",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0007015189621597528,
+                "max": 0.0007761251181364059,
+                "mean": 0.000708576619329412,
+                "stddev": 1.1349350722497239e-05,
+                "rounds": 1367,
+                "median": 0.0007019799668341875,
+                "iqr": 6.564776413142681e-06,
+                "q1": 0.0007018339820206165,
+                "q3": 0.0007083987584337592,
+                "iqr_outliers": 274,
+                "stddev_outliers": 227,
+                "outliers": "227;274",
+                "ld15iqr": 0.0007015189621597528,
+                "hd15iqr": 0.0007183670531958342,
+                "ops": 1411.2799840141317,
+                "total": 0.9686242386233062,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[19]",
+            "fullname": "single_gate_test.py::test_single_RX[19]",
+            "params": {
+                "nqubits": 19
+            },
+            "param": "19",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.001400805078446865,
+                "max": 0.0015524278860539198,
+                "mean": 0.0014183706405988432,
+                "stddev": 1.955721575891948e-05,
+                "rounds": 701,
+                "median": 0.0014077899977564812,
+                "iqr": 3.0915834940969944e-05,
+                "q1": 0.001401608984451741,
+                "q3": 0.001432524819392711,
+                "iqr_outliers": 6,
+                "stddev_outliers": 115,
+                "outliers": "115;6",
+                "ld15iqr": 0.001400805078446865,
+                "hd15iqr": 0.0014790829736739397,
+                "ops": 705.0343340283714,
+                "total": 0.9942778190597892,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[20]",
+            "fullname": "single_gate_test.py::test_single_RX[20]",
+            "params": {
+                "nqubits": 20
+            },
+            "param": "20",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0028432179242372513,
+                "max": 0.002976772841066122,
+                "mean": 0.0028760299920590955,
+                "stddev": 2.5154111343221142e-05,
+                "rounds": 335,
+                "median": 0.002865395974367857,
+                "iqr": 3.863027086481452e-05,
+                "q1": 0.0028563988162204623,
+                "q3": 0.002895029087085277,
+                "iqr_outliers": 1,
+                "stddev_outliers": 96,
+                "outliers": "96;1",
+                "ld15iqr": 0.0028432179242372513,
+                "hd15iqr": 0.002976772841066122,
+                "ops": 347.7015200679633,
+                "total": 0.963470047339797,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[21]",
+            "fullname": "single_gate_test.py::test_single_RX[21]",
+            "params": {
+                "nqubits": 21
+            },
+            "param": "21",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0064736909698694944,
+                "max": 0.006744900951161981,
+                "mean": 0.006571411543215315,
+                "stddev": 4.623423784756805e-05,
+                "rounds": 147,
+                "median": 0.006567728007212281,
+                "iqr": 4.618312232196331e-05,
+                "q1": 0.006544332311023027,
+                "q3": 0.00659051543334499,
+                "iqr_outliers": 8,
+                "stddev_outliers": 44,
+                "outliers": "44;8",
+                "ld15iqr": 0.006483722012490034,
+                "hd15iqr": 0.0066683110781013966,
+                "ops": 152.17430736512839,
+                "total": 0.9659974968526512,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[22]",
+            "fullname": "single_gate_test.py::test_single_RX[22]",
+            "params": {
+                "nqubits": 22
+            },
+            "param": "22",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.01348039391450584,
+                "max": 0.013729705940932035,
+                "mean": 0.013614910790017126,
+                "stddev": 5.433535576513469e-05,
+                "rounds": 74,
+                "median": 0.013620073557831347,
+                "iqr": 7.620896212756634e-05,
+                "q1": 0.013578332960605621,
+                "q3": 0.013654541922733188,
+                "iqr_outliers": 0,
+                "stddev_outliers": 22,
+                "outliers": "22;0",
+                "ld15iqr": 0.01348039391450584,
+                "hd15iqr": 0.013729705940932035,
+                "ops": 73.44888375862374,
+                "total": 1.0075033984612674,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[23]",
+            "fullname": "single_gate_test.py::test_single_RX[23]",
+            "params": {
+                "nqubits": 23
+            },
+            "param": "23",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.027533276937901974,
+                "max": 0.028112743981182575,
+                "mean": 0.027770041355963896,
+                "stddev": 0.00011503319429112677,
+                "rounds": 37,
+                "median": 0.02775357710197568,
+                "iqr": 0.00015679752686992288,
+                "q1": 0.02769553248072043,
+                "q3": 0.027852330007590353,
+                "iqr_outliers": 1,
+                "stddev_outliers": 9,
+                "outliers": "9;1",
+                "ld15iqr": 0.027533276937901974,
+                "hd15iqr": 0.028112743981182575,
+                "ops": 36.01002919591403,
+                "total": 1.0274915301706642,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[24]",
+            "fullname": "single_gate_test.py::test_single_RX[24]",
+            "params": {
+                "nqubits": 24
+            },
+            "param": "24",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.05578022892586887,
+                "max": 0.05651575908996165,
+                "mean": 0.05622273445543316,
+                "stddev": 0.0002172797966057417,
+                "rounds": 18,
+                "median": 0.05629167996812612,
+                "iqr": 0.00035558314993977547,
+                "q1": 0.05603205692023039,
+                "q3": 0.056387640070170164,
+                "iqr_outliers": 0,
+                "stddev_outliers": 7,
+                "outliers": "7;0",
+                "ld15iqr": 0.05578022892586887,
+                "hd15iqr": 0.05651575908996165,
+                "ops": 17.78639921529757,
+                "total": 1.0120092201977968,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[25]",
+            "fullname": "single_gate_test.py::test_single_RX[25]",
+            "params": {
+                "nqubits": 25
+            },
+            "param": "25",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.11271549598313868,
+                "max": 0.11357928393408656,
+                "mean": 0.11313040839094254,
+                "stddev": 0.0003157196719617856,
+                "rounds": 9,
+                "median": 0.1131874939892441,
+                "iqr": 0.0005925943842157722,
+                "q1": 0.11277340783271939,
+                "q3": 0.11336600221693516,
+                "iqr_outliers": 0,
+                "stddev_outliers": 4,
+                "outliers": "4;0",
+                "ld15iqr": 0.11271549598313868,
+                "hd15iqr": 0.11357928393408656,
+                "ops": 8.839356404905033,
+                "total": 1.018173675518483,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[26]",
+            "fullname": "single_gate_test.py::test_single_RX[26]",
+            "params": {
+                "nqubits": 26
+            },
+            "param": "26",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.22663749288767576,
+                "max": 0.22790859709493816,
+                "mean": 0.22731388323009014,
+                "stddev": 0.0004658082408619497,
+                "rounds": 5,
+                "median": 0.2272534379735589,
+                "iqr": 0.0005376370390877128,
+                "q1": 0.2270881508011371,
+                "q3": 0.2276257878402248,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.22663749288767576,
+                "hd15iqr": 0.22790859709493816,
+                "ops": 4.399203364925083,
+                "total": 1.1365694161504507,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[27]",
+            "fullname": "single_gate_test.py::test_single_RX[27]",
+            "params": {
+                "nqubits": 27
+            },
+            "param": "27",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.4543112590909004,
+                "max": 0.4550991209689528,
+                "mean": 0.45464743981137873,
+                "stddev": 0.0002991814463702722,
+                "rounds": 5,
+                "median": 0.4545592749491334,
+                "iqr": 0.00038922938983887434,
+                "q1": 0.45445701183052734,
+                "q3": 0.4548462412203662,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.4543112590909004,
+                "hd15iqr": 0.4550991209689528,
+                "ops": 2.199506502037873,
+                "total": 2.2732371990568936,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[28]",
+            "fullname": "single_gate_test.py::test_single_RX[28]",
+            "params": {
+                "nqubits": 28
+            },
+            "param": "28",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.9098173789680004,
+                "max": 0.9139176881872118,
+                "mean": 0.9120342115871608,
+                "stddev": 0.001488969332975201,
+                "rounds": 5,
+                "median": 0.9119286688510329,
+                "iqr": 0.001604893186595291,
+                "q1": 0.9113546825246885,
+                "q3": 0.9129595757112838,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.9098173789680004,
+                "hd15iqr": 0.9139176881872118,
+                "ops": 1.0964500972608882,
+                "total": 4.560171057935804,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[29]",
+            "fullname": "single_gate_test.py::test_single_RX[29]",
+            "params": {
+                "nqubits": 29
+            },
+            "param": "29",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.8248348732013255,
+                "max": 1.8385504530742764,
+                "mean": 1.8322752959094941,
+                "stddev": 0.0049821108189732725,
+                "rounds": 5,
+                "median": 1.8331640709657222,
+                "iqr": 0.005474644422065467,
+                "q1": 1.8294959994382225,
+                "q3": 1.834970643860288,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 1.8248348732013255,
+                "hd15iqr": 1.8385504530742764,
+                "ops": 0.5457695152210333,
+                "total": 9.16137647954747,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "RX",
+            "name": "test_single_RX[30]",
+            "fullname": "single_gate_test.py::test_single_RX[30]",
+            "params": {
+                "nqubits": 30
+            },
+            "param": "30",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.650102861924097,
+                "max": 3.683362626004964,
+                "mean": 3.663598013203591,
+                "stddev": 0.013132819736522269,
+                "rounds": 5,
+                "median": 3.662781822029501,
+                "iqr": 0.01900550862774253,
+                "q1": 3.652833965199534,
+                "q3": 3.6718394738272764,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 3.650102861924097,
+                "hd15iqr": 3.683362626004964,
+                "ops": 0.2729557108601993,
+                "total": 18.317990066017956,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[10]",
+            "fullname": "single_gate_test.py::test_single_CNOT[10]",
+            "params": {
+                "nqubits": 10
+            },
+            "param": "10",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.1059455573558807e-06,
+                "max": 5.5240001529455185e-05,
+                "mean": 1.1598209215666503e-06,
+                "stddev": 2.6164326918817473e-07,
+                "rounds": 159742,
+                "median": 1.1508818715810776e-06,
+                "iqr": 2.3981556296348572e-08,
+                "q1": 1.1399388313293457e-06,
+                "q3": 1.1639203876256943e-06,
+                "iqr_outliers": 7463,
+                "stddev_outliers": 120,
+                "outliers": "120;7463",
+                "ld15iqr": 1.1059455573558807e-06,
+                "hd15iqr": 1.200009137392044e-06,
+                "ops": 862202.070513809,
+                "total": 0.18527211365289986,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[11]",
+            "fullname": "single_gate_test.py::test_single_CNOT[11]",
+            "params": {
+                "nqubits": 11
+            },
+            "param": "11",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.4657271094620228e-06,
+                "max": 2.3164786398410797e-05,
+                "mean": 1.5125357198070403e-06,
+                "stddev": 1.9346466008823532e-07,
+                "rounds": 156204,
+                "median": 1.4977413229644299e-06,
+                "iqr": 2.450542524456978e-08,
+                "q1": 1.4890101738274097e-06,
+                "q3": 1.5135155990719795e-06,
+                "iqr_outliers": 3983,
+                "stddev_outliers": 620,
+                "outliers": "620;3983",
+                "ld15iqr": 1.4657271094620228e-06,
+                "hd15iqr": 1.550302840769291e-06,
+                "ops": 661141.4110124776,
+                "total": 0.23626412957673892,
+                "iterations": 4
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[12]",
+            "fullname": "single_gate_test.py::test_single_CNOT[12]",
+            "params": {
+                "nqubits": 12
+            },
+            "param": "12",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 2.3009488359093666e-06,
+                "max": 4.154047928750515e-05,
+                "mean": 2.381742111122659e-06,
+                "stddev": 3.7274547009727875e-07,
+                "rounds": 192747,
+                "median": 2.3549655452370644e-06,
+                "iqr": 3.7602148950099945e-08,
+                "q1": 2.3439060896635056e-06,
+                "q3": 2.3815082386136055e-06,
+                "iqr_outliers": 5053,
+                "stddev_outliers": 617,
+                "outliers": "617;5053",
+                "ld15iqr": 2.3009488359093666e-06,
+                "hd15iqr": 2.437969669699669e-06,
+                "ops": 419860.7377893821,
+                "total": 0.4590736466925591,
+                "iterations": 2
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[13]",
+            "fullname": "single_gate_test.py::test_single_CNOT[13]",
+            "params": {
+                "nqubits": 13
+            },
+            "param": "13",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.959983587265015e-06,
+                "max": 5.9898942708969116e-05,
+                "mean": 4.067417447814073e-06,
+                "stddev": 6.202764583570026e-07,
+                "rounds": 166750,
+                "median": 4.027970135211945e-06,
+                "iqr": 3.4924596548080444e-08,
+                "q1": 4.014000296592712e-06,
+                "q3": 4.048924893140793e-06,
+                "iqr_outliers": 17961,
+                "stddev_outliers": 466,
+                "outliers": "466;17961",
+                "ld15iqr": 3.961846232414246e-06,
+                "hd15iqr": 4.101777449250221e-06,
+                "ops": 245856.24977771187,
+                "total": 0.6782418594229966,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[14]",
+            "fullname": "single_gate_test.py::test_single_CNOT[14]",
+            "params": {
+                "nqubits": 14
+            },
+            "param": "14",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 7.220078259706497e-06,
+                "max": 0.00012623495422303677,
+                "mean": 7.3167585258559355e-06,
+                "stddev": 7.41781567833016e-07,
+                "rounds": 105419,
+                "median": 7.268041372299194e-06,
+                "iqr": 2.3050233721733093e-08,
+                "q1": 7.258960977196693e-06,
+                "q3": 7.2820112109184265e-06,
+                "iqr_outliers": 12465,
+                "stddev_outliers": 383,
+                "outliers": "383;12465",
+                "ld15iqr": 7.2249677032232285e-06,
+                "hd15iqr": 7.316935807466507e-06,
+                "ops": 136672.54378646,
+                "total": 0.7713253670372069,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[15]",
+            "fullname": "single_gate_test.py::test_single_CNOT[15]",
+            "params": {
+                "nqubits": 15
+            },
+            "param": "15",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.3662967830896378e-05,
+                "max": 0.00014372891746461391,
+                "mean": 1.3880433792377124e-05,
+                "stddev": 1.155676880213784e-06,
+                "rounds": 38727,
+                "median": 1.3805925846099854e-05,
+                "iqr": 5.611218512058258e-08,
+                "q1": 1.378101296722889e-05,
+                "q3": 1.3837125152349472e-05,
+                "iqr_outliers": 3883,
+                "stddev_outliers": 254,
+                "outliers": "254;3883",
+                "ld15iqr": 1.3696961104869843e-05,
+                "hd15iqr": 1.392187550663948e-05,
+                "ops": 72043.85791956887,
+                "total": 0.5375475594773889,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[16]",
+            "fullname": "single_gate_test.py::test_single_CNOT[16]",
+            "params": {
+                "nqubits": 16
+            },
+            "param": "16",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.616302274167538e-05,
+                "max": 0.0001259269192814827,
+                "mean": 3.691959741733833e-05,
+                "stddev": 1.9162520758227825e-06,
+                "rounds": 18378,
+                "median": 3.668293356895447e-05,
+                "iqr": 2.2095628082752228e-07,
+                "q1": 3.658211790025234e-05,
+                "q3": 3.6803074181079865e-05,
+                "iqr_outliers": 1627,
+                "stddev_outliers": 351,
+                "outliers": "351;1627",
+                "ld15iqr": 3.625103272497654e-05,
+                "hd15iqr": 3.713485784828663e-05,
+                "ops": 27085.8858154931,
+                "total": 0.6785083613358438,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[17]",
+            "fullname": "single_gate_test.py::test_single_CNOT[17]",
+            "params": {
+                "nqubits": 17
+            },
+            "param": "17",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0001029730774462223,
+                "max": 0.00016623898409307003,
+                "mean": 0.0001051089418750503,
+                "stddev": 3.0547519960889866e-06,
+                "rounds": 6147,
+                "median": 0.00010446994565427303,
+                "iqr": 2.569868229329586e-07,
+                "q1": 0.00010435306467115879,
+                "q3": 0.00010461005149409175,
+                "iqr_outliers": 865,
+                "stddev_outliers": 324,
+                "outliers": "324;865",
+                "ld15iqr": 0.00010397890582680702,
+                "hd15iqr": 0.00010499591007828712,
+                "ops": 9513.93841628397,
+                "total": 0.6461046657059342,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[18]",
+            "fullname": "single_gate_test.py::test_single_CNOT[18]",
+            "params": {
+                "nqubits": 18
+            },
+            "param": "18",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00020592613145709038,
+                "max": 0.00027630594559013844,
+                "mean": 0.000207846613738292,
+                "stddev": 3.502390885719641e-06,
+                "rounds": 3632,
+                "median": 0.00020692916586995125,
+                "iqr": 2.9709190130233765e-07,
+                "q1": 0.00020679295994341373,
+                "q3": 0.00020709005184471607,
+                "iqr_outliers": 517,
+                "stddev_outliers": 231,
+                "outliers": "231;517",
+                "ld15iqr": 0.0002063631545752287,
+                "hd15iqr": 0.00020753801800310612,
+                "ops": 4811.240279618604,
+                "total": 0.7548989010974765,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[19]",
+            "fullname": "single_gate_test.py::test_single_CNOT[19]",
+            "params": {
+                "nqubits": 19
+            },
+            "param": "19",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00041220104321837425,
+                "max": 0.0005376341287046671,
+                "mean": 0.000415719189432862,
+                "stddev": 6.4701990668693575e-06,
+                "rounds": 1827,
+                "median": 0.0004135610070079565,
+                "iqr": 1.199252437800169e-06,
+                "q1": 0.0004131603054702282,
+                "q3": 0.00041435955790802836,
+                "iqr_outliers": 379,
+                "stddev_outliers": 172,
+                "outliers": "172;379",
+                "ld15iqr": 0.00041220104321837425,
+                "hd15iqr": 0.00041624903678894043,
+                "ops": 2405.469907136674,
+                "total": 0.7595189590938389,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[20]",
+            "fullname": "single_gate_test.py::test_single_CNOT[20]",
+            "params": {
+                "nqubits": 20
+            },
+            "param": "20",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.0009274408221244812,
+                "max": 0.0010577589273452759,
+                "mean": 0.0009501879404950348,
+                "stddev": 1.3127508866717023e-05,
+                "rounds": 865,
+                "median": 0.0009466980118304491,
+                "iqr": 1.3333628885447979e-05,
+                "q1": 0.0009421008289791644,
+                "q3": 0.0009554344578646123,
+                "iqr_outliers": 44,
+                "stddev_outliers": 185,
+                "outliers": "185;44",
+                "ld15iqr": 0.0009274408221244812,
+                "hd15iqr": 0.0009756330400705338,
+                "ops": 1052.423375820802,
+                "total": 0.8219125685282052,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[21]",
+            "fullname": "single_gate_test.py::test_single_CNOT[21]",
+            "params": {
+                "nqubits": 21
+            },
+            "param": "21",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.003189689014106989,
+                "max": 0.0033743379171937704,
+                "mean": 0.0032449361666187864,
+                "stddev": 2.7374579203193893e-05,
+                "rounds": 272,
+                "median": 0.0032430889550596476,
+                "iqr": 3.119790926575661e-05,
+                "q1": 0.0032261625165119767,
+                "q3": 0.0032573604257777333,
+                "iqr_outliers": 9,
+                "stddev_outliers": 75,
+                "outliers": "75;9",
+                "ld15iqr": 0.003189689014106989,
+                "hd15iqr": 0.0033048479817807674,
+                "ops": 308.17247201568125,
+                "total": 0.8826226373203099,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[22]",
+            "fullname": "single_gate_test.py::test_single_CNOT[22]",
+            "params": {
+                "nqubits": 22
+            },
+            "param": "22",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.007800909923389554,
+                "max": 0.008146861800923944,
+                "mean": 0.007979497715496109,
+                "stddev": 6.499870810669581e-05,
+                "rounds": 128,
+                "median": 0.00798803148791194,
+                "iqr": 6.654602475464344e-05,
+                "q1": 0.007951618987135589,
+                "q3": 0.008018165011890233,
+                "iqr_outliers": 10,
+                "stddev_outliers": 33,
+                "outliers": "33;10",
+                "ld15iqr": 0.007855951087549329,
+                "hd15iqr": 0.008122551953420043,
+                "ops": 125.32117128851475,
+                "total": 1.021375707583502,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[23]",
+            "fullname": "single_gate_test.py::test_single_CNOT[23]",
+            "params": {
+                "nqubits": 23
+            },
+            "param": "23",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.01720246090553701,
+                "max": 0.017495329957455397,
+                "mean": 0.01728703072925998,
+                "stddev": 5.654202831031771e-05,
+                "rounds": 59,
+                "median": 0.01727576507255435,
+                "iqr": 5.6630640756338835e-05,
+                "q1": 0.017252849240321666,
+                "q3": 0.017309479881078005,
+                "iqr_outliers": 3,
+                "stddev_outliers": 15,
+                "outliers": "15;3",
+                "ld15iqr": 0.01720246090553701,
+                "hd15iqr": 0.01739445305429399,
+                "ops": 57.84683417652534,
+                "total": 1.0199348130263388,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[24]",
+            "fullname": "single_gate_test.py::test_single_CNOT[24]",
+            "params": {
+                "nqubits": 24
+            },
+            "param": "24",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.03665948682464659,
+                "max": 0.03702647611498833,
+                "mean": 0.03685275629956137,
+                "stddev": 9.264044867144671e-05,
+                "rounds": 27,
+                "median": 0.03686954197473824,
+                "iqr": 0.0001325341290794313,
+                "q1": 0.036773443047422916,
+                "q3": 0.03690597717650235,
+                "iqr_outliers": 0,
+                "stddev_outliers": 8,
+                "outliers": "8;0",
+                "ld15iqr": 0.03665948682464659,
+                "hd15iqr": 0.03702647611498833,
+                "ops": 27.135012422718084,
+                "total": 0.9950244200881571,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[25]",
+            "fullname": "single_gate_test.py::test_single_CNOT[25]",
+            "params": {
+                "nqubits": 25
+            },
+            "param": "25",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.07254507811740041,
+                "max": 0.07325722905807197,
+                "mean": 0.0729365850565955,
+                "stddev": 0.000218234697070698,
+                "rounds": 14,
+                "median": 0.07296078908257186,
+                "iqr": 0.00034012505784630775,
+                "q1": 0.07276607304811478,
+                "q3": 0.07310619810596108,
+                "iqr_outliers": 0,
+                "stddev_outliers": 4,
+                "outliers": "4;0",
+                "ld15iqr": 0.07254507811740041,
+                "hd15iqr": 0.07325722905807197,
+                "ops": 13.710540454067667,
+                "total": 1.021112190792337,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[26]",
+            "fullname": "single_gate_test.py::test_single_CNOT[26]",
+            "params": {
+                "nqubits": 26
+            },
+            "param": "26",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.14607061515562236,
+                "max": 0.1466296419966966,
+                "mean": 0.14641228983444826,
+                "stddev": 0.00022700349297824339,
+                "rounds": 7,
+                "median": 0.14649622794240713,
+                "iqr": 0.0003928239457309246,
+                "q1": 0.146198031201493,
+                "q3": 0.14659085514722392,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.14607061515562236,
+                "hd15iqr": 0.1466296419966966,
+                "ops": 6.830027732854414,
+                "total": 1.0248860288411379,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[27]",
+            "fullname": "single_gate_test.py::test_single_CNOT[27]",
+            "params": {
+                "nqubits": 27
+            },
+            "param": "27",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.2934265348594636,
+                "max": 0.29466144484467804,
+                "mean": 0.29398419433273376,
+                "stddev": 0.0005235000363992872,
+                "rounds": 5,
+                "median": 0.29383972007781267,
+                "iqr": 0.0008948556496761739,
+                "q1": 0.29356104659382254,
+                "q3": 0.2944559022434987,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.2934265348594636,
+                "hd15iqr": 0.29466144484467804,
+                "ops": 3.4015434138210563,
+                "total": 1.4699209716636688,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[28]",
+            "fullname": "single_gate_test.py::test_single_CNOT[28]",
+            "params": {
+                "nqubits": 28
+            },
+            "param": "28",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.5864118519239128,
+                "max": 0.587997741997242,
+                "mean": 0.587081165984273,
+                "stddev": 0.000745898174387591,
+                "rounds": 5,
+                "median": 0.5866833799518645,
+                "iqr": 0.0013258680701255798,
+                "q1": 0.5865055862232111,
+                "q3": 0.5878314542933367,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.5864118519239128,
+                "hd15iqr": 0.587997741997242,
+                "ops": 1.7033419873441973,
+                "total": 2.935405829921365,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[29]",
+            "fullname": "single_gate_test.py::test_single_CNOT[29]",
+            "params": {
+                "nqubits": 29
+            },
+            "param": "29",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 1.170441254042089,
+                "max": 1.1747571059968323,
+                "mean": 1.172512342594564,
+                "stddev": 0.0019645007114254378,
+                "rounds": 5,
+                "median": 1.1721020359545946,
+                "iqr": 0.0036579888546839356,
+                "q1": 1.1707937944447622,
+                "q3": 1.174451783299446,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 1.170441254042089,
+                "hd15iqr": 1.1747571059968323,
+                "ops": 0.8528694868893026,
+                "total": 5.86256171297282,
+                "iterations": 1
+            }
+        },
+        {
+            "group": "CNOT",
+            "name": "test_single_CNOT[30]",
+            "fullname": "single_gate_test.py::test_single_CNOT[30]",
+            "params": {
+                "nqubits": 30
+            },
+            "param": "30",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 2.3492830460891128,
+                "max": 2.35626444616355,
+                "mean": 2.354167524445802,
+                "stddev": 0.0028122413459923308,
+                "rounds": 5,
+                "median": 2.3547406219877303,
+                "iqr": 0.0025664138374850154,
+                "q1": 2.3533662951085716,
+                "q3": 2.3559327089460567,
+                "iqr_outliers": 1,
+                "stddev_outliers": 1,
+                "outliers": "1;1",
+                "ld15iqr": 2.354727378115058,
+                "hd15iqr": 2.35626444616355,
+                "ops": 0.424778606286913,
+                "total": 11.77083762222901,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2024-05-03T01:23:58.777137",
+    "version": "4.0.0"
+}
